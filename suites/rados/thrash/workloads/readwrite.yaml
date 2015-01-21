@@ -1,3 +1,6 @@
+overrides:
+  ceph:
+    crush_tunables: hammer
 tasks:
 - rados:
     clients: [client.0]
